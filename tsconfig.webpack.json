@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "types": ["node"],
+      "noEmit": true
+    },
+    "include": [
+      "webpack.config.ts",
+      "webpack.dev.config.ts",
+      "webpack.prod.config.ts",
+      "dotenv-webpack.d.ts"
+    ]
+  }
